@@ -3,20 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Gabo</title>
+    <style>
+        /*forma 2 Estilos embebidos */
+        main {
+            background-color: blue;
+            color: white;
+        }
+    </style>
 </head>
 <body>
-    <header>
-Aquí va el encabezado
+    <!--1 Forma. style inline-->
+    <header id="header" class="header" style="background-color: yellowgit;">
+        <div class="logo">
+            <img id= "logo" src="./images/logo.png" alt="Logo: Gabriel">
+        </div>
+        <div class="menu-principal">
+            <a href="#">Categorías</a>
+            <a href="#">Biografía</a>
+            <a href="#">Premios</a>
+        </div>
     </header>
     <main>
-Aquí va el contenido principal
+        Aquí va el contenido principal
+        <button onclick="saluda()">Saludame
+        </button>
     </main>
     <aside>
         Aquí van los widges de la página
     </aside>
-    <footer>
-Aquí va el pies de página
+    <footer class="footer">
+        Aquí van los widges de la página
+        Aquí va el pies de página
     </footer>
 </body>
 </html>
