@@ -4,37 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gabo</title>
-    <style>
-        /*forma 2 Estilos embebidos */
-        main {
-            background-color: blue;
-            color: white;
-        }
-    </style>
+    <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
-    <!--1 Forma. style inline-->
-    <header id="header" class="header" style="background-color: yellowgit;">
-        <div class="logo">
-            <img id= "logo" src="./images/logo.png" alt="Logo: Gabriel">
-        </div>
+    <!-- CSS (Forma 1): style inline -->
+    <header>
         <div class="menu-principal">
-            <a href="#">Categorías</a>
-            <a href="#">Biografía</a>
+            <a href="#">Categorias</a>
+            <a href="#">Biografia</a>
             <a href="#">Premios</a>
         </div>
+        <div class="logo">
+            <img id="logo" src="./images/logo.png" alt="Logo: Gabriel ">
+        </div>
     </header>
-    <main>
-        Aquí va el contenido principal
-        <button onclick="saluda()">Saludame
-        </button>
+    <main class="main">
+        <!--<img src="./images/banner.jpg" alt="">-->
+        <div class="banner">
+            <h1 class="banner-title">Gabriel Garcia Marquez</h1>
+        </div>
+        Aqui va el contenido principal
     </main>
     <aside>
-        Aquí van los widges de la página
+        Aqui van los Widgets de la pagina
     </aside>
     <footer class="footer">
-        Aquí van los widges de la página
-        Aquí va el pies de página
+        Aqui van los Widgets de la pagina
+        Aqui va el pie de pagina
     </footer>
+
+    <script src="./js/main.js"></script>
 </body>
 </html>
