@@ -15,18 +15,12 @@ img#logo {
     padding: 0.5rem;
 }
 
-a {
-    text-decoration: none;
-    font-size: 1.2rem;
-    padding: 0.5rem;
-    margin: 0.5rem;
-    color: black;
-    font-weight: 500;
-}
-
-.main {
-    background-color: #b4c2dd;
-    color: white;
+.menu-principal {
+    display: flex;
+    list-style: none;
+    border: 1px dotted;
+    padding: 0;
+    margin: 0;
 }
 
 .banner {
@@ -46,6 +40,52 @@ a {
     text-align: right;
     text-transform: uppercase;
     width: 25%;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    color: black;
+    font-weight: 500;
+}
+
+.main {
+    background-color: #b4c2dd;  
+    color: white;
+}
+
+.sections {
+    list-style: none;
+    padding: 0;
+    margin: 2.2rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+
+.section-item {
+    width: 5rem;
+    height: 5rem;
+    border: 2px dotted yellow;
+    background: orange;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.text-anchor {
+    font-size: 55rem;
+    padding: 1.2rem 0.8rem;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+section.obras {
+    padding: 2.2rem 0;
 }
 
 footer {
