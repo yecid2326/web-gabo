@@ -59,7 +59,7 @@ a {
 .sections {
     list-style: none;
     padding: 0;
-    margin: 2.2rem 0;
+    margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -69,7 +69,6 @@ a {
 .section-item {
     width: 5rem;
     height: 5rem;
-    border: 2px dotted yellow;
     background: orange;
     border-radius: 50%;
     display: flex;
@@ -77,15 +76,15 @@ a {
     align-items: flex-start;
 }
 
+.obras {
+    padding: 2.2rem 0;
+}
+
 .text-anchor {
-    font-size: 55rem;
+    font-size: .55rem;
     padding: 1.2rem 0.8rem;
     margin: 0;
     text-transform: uppercase;
-}
-
-section.obras {
-    padding: 2.2rem 0;
 }
 
 footer {
